@@ -1,8 +1,11 @@
 {
+  // SoloCast 前端静态站点 · Cloudflare Workers 部署配置
+  // 配合「部署命令：npx wrangler deploy」使用
   "name": "solocast",
   "compatibility_date": "2026-09-01",
   "assets": {
     "directory": "./",
+    // SPA 回退：刷新子页面不 404（与 _redirects 双保险）
     "not_found_handling": "single-page-application"
   }
 }
