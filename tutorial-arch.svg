@@ -1,0 +1,72 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="arch-line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C6CFF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="arch-node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C6CFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.16"/>
+    </linearGradient>
+    <style>
+      .node-title { font: 600 17px 'Noto Sans SC', sans-serif; fill: #E8ECF4; }
+      .node-sub   { font: 400 12px 'Noto Sans SC', sans-serif; fill: #9AA4B8; }
+      .cap        { font: 500 12px 'Noto Sans SC', sans-serif; fill: #5C6678; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="360" rx="20" fill="#0A0D13"/>
+
+  <!-- connecting line -->
+  <line x1="150" y1="170" x2="1050" y2="170" stroke="url(#arch-line)" stroke-width="2" opacity="0.55"/>
+  <!-- flow arrows -->
+  <g fill="#7C6CFF">
+    <path d="M286 165 l10 5 -10 5 z"/>
+    <path d="M436 165 l10 5 -10 5 z"/>
+    <path d="M586 165 l10 5 -10 5 z"/>
+    <path d="M736 165 l10 5 -10 5 z"/>
+    <path d="M886 165 l10 5 -10 5 z"/>
+  </g>
+
+  <!-- nodes -->
+  <g>
+    <rect x="70" y="130" width="140" height="80" rx="14" fill="#141A26" stroke="rgba(148,163,184,0.2)"/>
+    <circle cx="140" cy="170" r="4" fill="#7C6CFF"/>
+    <text x="140" y="166" text-anchor="middle" class="node-title">产品图片+介绍</text>
+    <text x="140" y="190" text-anchor="middle" class="node-sub">一键上传素材</text>
+  </g>
+  <g>
+    <rect x="220" y="130" width="140" height="80" rx="14" fill="url(#arch-node)" stroke="url(#arch-line)" stroke-width="1.5"/>
+    <text x="290" y="166" text-anchor="middle" class="node-title">SoloCast 中控台</text>
+    <text x="290" y="190" text-anchor="middle" class="node-sub">任务编排调度</text>
+  </g>
+  <g>
+    <rect x="370" y="130" width="140" height="80" rx="14" fill="#141A26" stroke="rgba(148,163,184,0.2)"/>
+    <text x="440" y="166" text-anchor="middle" class="node-title">Kimi API</text>
+    <text x="440" y="190" text-anchor="middle" class="node-sub">Moonshot 大模型</text>
+  </g>
+  <g>
+    <rect x="520" y="130" width="140" height="80" rx="14" fill="#141A26" stroke="rgba(148,163,184,0.2)"/>
+    <text x="590" y="166" text-anchor="middle" class="node-title">直播话术</text>
+    <text x="590" y="190" text-anchor="middle" class="node-sub">六段式自动脚本</text>
+  </g>
+  <g>
+    <rect x="670" y="130" width="140" height="80" rx="14" fill="#141A26" stroke="rgba(148,163,184,0.2)"/>
+    <text x="740" y="166" text-anchor="middle" class="node-title">TTS 语音</text>
+    <text x="740" y="190" text-anchor="middle" class="node-sub">AI 主播配音</text>
+  </g>
+  <g>
+    <rect x="820" y="130" width="140" height="80" rx="14" fill="#141A26" stroke="rgba(148,163,184,0.2)"/>
+    <text x="890" y="166" text-anchor="middle" class="node-title">OBS 推流</text>
+    <text x="890" y="190" text-anchor="middle" class="node-sub">RTMP 实时输出</text>
+  </g>
+  <g>
+    <rect x="970" y="130" width="160" height="80" rx="14" fill="#141A26" stroke="rgba(255,77,94,0.45)"/>
+    <circle cx="1000" cy="162" r="4" fill="#FF4D5E"/>
+    <text x="1050" y="166" text-anchor="middle" class="node-title">直播平台</text>
+    <text x="1050" y="190" text-anchor="middle" class="node-sub">抖音 / 快手 / 视频号</text>
+  </g>
+
+  <text x="70" y="60" class="cap">SOLOCAST PIPELINE · 从素材到开播的全自动链路</text>
+</svg>
